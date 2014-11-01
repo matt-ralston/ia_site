@@ -1,0 +1,83 @@
+/* Custom CSS */
+
+/*body {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+*/
+
+.nav-bar right {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.button {
+  padding: 8px;
+  top: 8px;
+  background-color: black;
+  font-size: 0.75rem;
+}
+
+.nav-bar a:hover {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #333; 
+}
+    .nav-bar a:hover .tooltip {
+      display: block; 
+ }
+
+
+#logo {
+	color: #000;
+	font-size: 4.57143em;
+	font-family: HelveticaNeue, Arial;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+.section_separator {
+  font-family: 'iABCRegularSC', Georgia, serif;
+  position: relative;
+  margin: 5em 0 1.52381em 0;
+  font-size: 1em;
+  line-height: 1.14286em;
+  text-align: center;
+}
+.section_separator a,
+  .section_separator span {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    z-index: 1;
+    background-color: #fdfdfd;
+    text-decoration: none; 
+}
+.section_separator a:hover {
+    text-decoration: underline;
+    color: crimson; }
+
+.more_link {
+	text-decoration: underline;
+}
+.more_link:hover {
+	color:crimson;
+}
+
+a {
+	color: black;
+}
+
+#works-wrapper {
+  margin-top: 3.04762em;
+  margin-bottom: 3.04762em; 
+}
+
+#square {
+  background-color: red;
+}
