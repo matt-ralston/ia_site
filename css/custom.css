@@ -1,36 +1,23 @@
 /* Custom CSS */
-
-/*body {
-  text-align: center;
-  width: 100%;
-  margin: 0 0 0 0;
+body {
+  background-color: #fdfdfd;
+  font-family: 'iABCRegularSC', Georgia, serif;
+  border-top: solid black;
 }
-*/
 
-.nav-bar right {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  position: absolute;
+a {
+  color: black;
+}
+a:hover {
+  color: crimson;
+  text-decoration: underline;
 }
 
 .button {
-  padding: 8px;
-  top: 8px;
+  margin: 8px;
   background-color: black;
-  font-size: 0.75rem;
+  font-size: 1em; 
 }
-
-.nav-bar a:hover {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background-color: #333; 
-}
-    .nav-bar a:hover .tooltip {
-      display: block; 
- }
-
 
 #logo {
 	color: #000;
@@ -39,13 +26,22 @@
 	font-weight: bold;
 	text-decoration: none;
 	line-height: 1em;
+  padding-top: 60px;
+}
+
+.featured {
+  font-family: 'iABCRegularSC', Georgia, serif;
+  font-size: 1.25em;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
 }
 
 .section_separator {
   font-family: 'iABCRegularSC', Georgia, serif;
   position: relative;
-  margin: 5em 0 1.52381em 0;
-  font-size: 1em;
+  margin: 5em 0 2em;
+  font-size: 0.9em;
+  letter-spacing: 1.5px;
   line-height: 1.14286em;
   text-align: center;
 }
@@ -56,28 +52,43 @@
     padding: 0 10px;
     z-index: 1;
     background-color: #fdfdfd;
-    text-decoration: none; 
+    text-decoration: !important; 
 }
 .section_separator a:hover {
     text-decoration: underline;
     color: crimson; }
+  
+#contact {
+  font-style: italic;
+}
+
+p a {
+  text-decoration: underline !important;
+}
 
 .more_link {
 	text-decoration: underline;
-}
-.more_link:hover {
-	color:crimson;
+  font-size: 0.7em;
+  font-weight: 500;
+  font-family: 'iABCRegularSC', Georgia, serif;
+  letter-spacing: 0.25px;
+  line-height: 0.25em;
 }
 
-a {
-	color: black;
+#blog_link {
+  font-style: italic;
+  font-size: 1.65em;
+  font-family: 'iABCRegularSC', Georgia, serif;
+  margin-bottom: 1em; 
 }
+
 
 #works-wrapper {
   margin-top: 3.04762em;
-  margin-bottom: 3.04762em; 
+  margin-bottom: 3.04762em;
+  font-family: 'iABCRegularSC', Georgia, serif; 
 }
 
-#square {
-  background-color: red;
+ul {
+  list-style-type: none;
 }
